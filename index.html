@@ -10,16 +10,19 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tarea BS</title>
+  </head>
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <body>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Tarea BS</title>
-  </head>
-  <body>
+ 
+<header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-secundary">
       <div class="container-fluid">
         <button
@@ -56,5 +59,136 @@
         </div>
       </div>
     </nav>
-  </body>
+</header>
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-light slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="https://picsum.photos/800/300"
+            class="d-block w-100"
+            alt="imagen de muestra"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Lorem, ipsum dolor.</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              voluptatem.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://picsum.photos/801/300"
+            class="d-block w-100"
+            alt="imagen de muestra"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Lorem ipsum dolor sit.</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio molestiae tempore aliquid reprehenderit. Eos,
+              distinctio?
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://picsum.photos/803/300"
+            class="d-block w-100"
+            alt="imagen de muestra"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Lorem, ipsum.</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Cupiditate, rem?
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+        <p aria-hidden="true">
+          <span class="placeholder col-6"></span>
+        </p>
+    </div>
+    
+
+    <div class="card-group">
+        <div class="card bg-tercero">
+          <img src="svg/logoipsum-logo-8.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lorem.</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nemo reprehenderit quidem natus sequi labore?</p>
+            <p class="card-text"><small class="card-actualizacion">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card bg-tercero2">
+          <img src="svg/logoipsumred.svg" class="card-img-top" alt="...">
+          <div class="card-body tarjeta2">
+            <h5 class="card-title2">Lorem, ipsum.</h5>
+            <p class="card-text2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium iure illo enim alias culpa ipsa?</p>
+            <p class="card-text2"><small class="card-actualizacion2">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card bg-tercero">
+          <img src="svg/logoipsum-logo-8.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lorem, ipsum dolor.</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, excepturi provident labore delectus rerum magnam.</p>
+            <p class="card-text"><small class="card-actualizacion">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="espacio"></div>
+      <div class="footer-basic">
+        <footer>
+        
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            
+            <p class="copyright">Maxwell Marte © 2022</p>
+        </footer>
+    </body>
 </html>
