@@ -47,8 +47,6 @@ header {
   margin-bottom: 2%;
 }
 
-.carousel-item {
-}
 .card-img-top {
   width: 50%;
   margin: 0 auto;
@@ -83,9 +81,6 @@ header {
 .footer-basic .social {
   text-align: center;
   padding-bottom: 25px;
-}
-
-.list-inline {
 }
 
 .footer-basic .social > a {
@@ -126,8 +121,5 @@ header {
 
   .carousel-item {
     width: 150%;
-  }
-
-  .card-group {
   }
 }
